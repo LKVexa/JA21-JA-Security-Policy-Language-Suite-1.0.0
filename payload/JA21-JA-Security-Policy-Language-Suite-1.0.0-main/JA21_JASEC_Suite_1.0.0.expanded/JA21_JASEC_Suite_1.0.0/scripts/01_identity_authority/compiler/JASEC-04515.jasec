@@ -1,0 +1,21 @@
+ja source 0.3
+module corpus.ja_security.example_04515
+use Security
+policy no_network
+
+principal WorkerJASEC_04515
+role TrainingWorker {
+    grant device.gpu
+    grant dataset.read:approved
+}
+resource ModelExport55 classification restricted
+policy PolicyJASEC_04515 {
+    deny network.* by default
+    allow ModelExport55 when principal.role == TrainingWorker
+    require human_approval for model.export
+    audit all privileged_effects
+    redact secret.values
+    resolve conflicts explicit_deny_wins
+}
+assert policy.secret_leak == true
+emit mcrt "PolicyJASEC_04515.decision.mcrt"

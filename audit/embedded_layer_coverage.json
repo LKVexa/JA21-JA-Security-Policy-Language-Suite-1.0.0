@@ -1,0 +1,70 @@
+{
+  "coverage": [
+    {
+      "wrapper": "payload/JA21-JA-Security-Policy-Language-Suite-1.0.0-main/JA21_JASEC_Suite_1.0.0.expanded/JA21_JASEC_Suite_1.0.0/source/uploaded/JA_Security_Policy_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 1,
+      "original_id": "Corpora(2).zip::ja-security_corpus_10000/ja-security/CORPUS_SCHEMA.json",
+      "content_bytes": 8240,
+      "content_sha256": "09f532604fa25430c96a12ab90a777b4941c2176de1b5e878b8fe63fe30e6cf0",
+      "check": "embedded_json_parse",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Security-Policy-Language-Suite-1.0.0-main/JA21_JASEC_Suite_1.0.0.expanded/JA21_JASEC_Suite_1.0.0/source/uploaded/JA_Security_Policy_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 2,
+      "original_id": "Corpora(2).zip::ja-security_corpus_10000/ja-security/ja-security_corpus_10000.jsonl",
+      "content_bytes": 61768457,
+      "content_sha256": "17c3f7a5e57a72700e6f7296f3df071ccaa8c261af34288af9391cbfcb19f297",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 10001,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Security-Policy-Language-Suite-1.0.0-main/JA21_JASEC_Suite_1.0.0.expanded/JA21_JASEC_Suite_1.0.0/source/uploaded/JA_Security_Policy_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 3,
+      "original_id": "Corpora(2).zip::ja-security_corpus_10000/ja-security/ja-security_index.csv",
+      "content_bytes": 3455422,
+      "content_sha256": "fd02ecf1cbdb9c6eb4370a465a799ae1c808e956a3fe574f57b0015b1a52a765",
+      "check": "full_text_read_hash",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Security-Policy-Language-Suite-1.0.0-main/JA21_JASEC_Suite_1.0.0.expanded/JA21_JASEC_Suite_1.0.0/source/uploaded/JA_Security_Policy_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 4,
+      "original_id": "Corpora(2).zip::ja-security_corpus_10000/ja-security/MANIFEST.json",
+      "content_bytes": 9048,
+      "content_sha256": "dc4548eba9c8380fd2f0c35876f3c3c34912bbb373c8441f45919efc6807f7b8",
+      "check": "embedded_json_parse",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Security-Policy-Language-Suite-1.0.0-main/JA21_JASEC_Suite_1.0.0.expanded/JA21_JASEC_Suite_1.0.0/source/uploaded/JA_Security_Policy_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 5,
+      "original_id": "Corpora(2).zip::ja-security_corpus_10000/ja-security/README.md",
+      "content_bytes": 4563,
+      "content_sha256": "9faa18d9ff4a29bcdc48d05dde4d8a75859cfbb8618b9e577fc75e06c1e377f1",
+      "check": "full_text_read_hash",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Security-Policy-Language-Suite-1.0.0-main/JA21_JASEC_Suite_1.0.0.expanded/JA21_JASEC_Suite_1.0.0/source/uploaded/JA_Security_Policy_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 6,
+      "original_id": "Corpora(2).zip::ja-security_corpus_10000/ja-security/SAMPLES.md",
+      "content_bytes": 96481,
+      "content_sha256": "1ed655f94565515054d865944728c3f0a56b436001805848f41049b41bc6f206",
+      "check": "full_text_read_hash",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Security-Policy-Language-Suite-1.0.0-main/JA21_JASEC_Suite_1.0.0.expanded/JA21_JASEC_Suite_1.0.0/source/uploaded/JA_Security_Policy_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 7,
+      "original_id": "Corpora(2).zip::ja-security_corpus_10000/ja-security/SHA256SUMS.txt",
+      "content_bytes": 913,
+      "content_sha256": "4bd63a28c5729aaf37abba29e883ef39d651c9b89a50879a3b5a9bd32e6744dc",
+      "check": "full_text_read_hash",
+      "embedded_records": 0
+    }
+  ],
+  "findings": [],
+  "note": "Embedded record totals overlap reconstructed datasets. They are additional coverage, not unique training examples."
+}

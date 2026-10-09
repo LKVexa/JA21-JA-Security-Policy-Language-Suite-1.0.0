@@ -1,0 +1,11 @@
+8819b11654b4257f28fa6878bc027675db7fe7b449314c17cdb0aa8c790047be  CORPUS_SCHEMA.json
+c90bf53a52116e1e6388a2cffdf7cd1ed3d5d06ffb46d5ed0e0344623c5b51a5  README.md
+d301845718beb42177f983b8d0180d7175595df9f3a9e1a0e4609bab5e9b11db  SAMPLES.md
+6f4214ef66aa387061686fffa4f2e56b77bf1eadd07bf43860f5f3af1d23a91f  ja-security_corpus_10000.jsonl
+eaba634ca745accd98d0427a357783e598201c20e06aeb6072ab48874c09df79  ja-security_index.csv
+689859e580e926052abca36d3e9c5bcebece8de235dfdfd0ced96d0427b3d9b7  MANIFEST.json
+
+# Smithson 8S Coupled Mechanics editorial annotation
+# Hashes above identify source artifacts only; rewritten corpus objects have bundle-level hashes in By_Language_Manifest.json.
+# The 8S integration adds C5=[C4|e], eta_ind, G5/W/H coupling, g5/delta8/g3/gJ relation channels, Delta_8S, and the admission gate.
+# Conflict flag: source checksums must not be represented as validating the rewritten 8S corpus.

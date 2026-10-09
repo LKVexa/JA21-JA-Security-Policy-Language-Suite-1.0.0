@@ -1,0 +1,21 @@
+ja source 0.3
+module starter.security.offline_export
+use Security
+policy no_network
+
+principal ExportWorker
+role ApprovedExporter {
+    grant dataset.read:approved
+    grant model.export:signed
+}
+resource ModelPackage classification restricted
+policy OfflineExportPolicy {
+    deny network.* by default
+    allow ModelPackage when principal.role == ApprovedExporter
+    require human_approval for model.export
+    audit all privileged_effects
+    redact secret.values
+    resolve conflicts explicit_deny_wins
+}
+assert policy.secret_leak == false
+emit mcrt "OfflineExportPolicy.decision.mcrt"

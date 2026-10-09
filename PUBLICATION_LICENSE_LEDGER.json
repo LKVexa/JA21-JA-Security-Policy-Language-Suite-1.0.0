@@ -1,0 +1,64 @@
+{
+  "repository": "JA21-JA-Security-Policy-Language-Suite-1.0.0",
+  "copyright": "JA21-JA-Security-Policy-Language-Suite-1.0.0 (C) 2026 RUSSELL PHILIP SMITHSON",
+  "license": "GPL-3.0-only",
+  "publication_date": "2026-10-09",
+  "source_preservation": "Original source directories, compressed archives, source manifests, and prior audit source statistics remain unchanged.",
+  "manifest_policy": "Only existing current manifest/checksum records covering files changed by the licensing pass were refreshed. No source audit statistics were rewritten.",
+  "changes": [
+    {
+      "path": "COPYRIGHT",
+      "action": "added",
+      "reason": "Requested repository copyright attribution",
+      "original_sha256": null,
+      "original_bytes": null,
+      "current_sha256": "44c4a40976e872c966e6813aa23713f937e61acc12a8c552090e061b0e39bd53",
+      "current_bytes": 116
+    },
+    {
+      "path": "LICENSE",
+      "action": "added",
+      "reason": "Requested GPL-3.0-only repository license",
+      "original_sha256": null,
+      "original_bytes": null,
+      "current_sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "current_bytes": 35149
+    },
+    {
+      "path": "NOTICE",
+      "action": "added",
+      "reason": "Repository license and publication provenance notice",
+      "original_sha256": null,
+      "original_bytes": null,
+      "current_sha256": "57cd2d0a38fbc58b2c7628468e7af1d3b4430bc4d0d087174b348b6ae86e18bd",
+      "current_bytes": 385
+    },
+    {
+      "path": "audit/updated_manifest.json",
+      "action": "modified",
+      "reason": "Refresh current manifest records for licensing edits",
+      "original_sha256": "cc200eb46b3ae7a748df8a6c73ed74824dda6b778b0adc55fa6906a3b0b16700",
+      "original_bytes": 331726,
+      "current_sha256": "2d011afcf4c1dee6a39135d4d37ebc282974893110042f9ae39fc275fe754dce",
+      "current_bytes": 326341
+    },
+    {
+      "path": "payload/JA21-JA-Security-Policy-Language-Suite-1.0.0-main/LICENSE.txt",
+      "action": "modified",
+      "reason": "Replace prior authored package license notice with requested GPL-3.0-only",
+      "original_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "original_bytes": 11358,
+      "current_sha256": "ec13215727c4aae100a84553a6dc7636078b7349cace186d850376d1adb10b82",
+      "current_bytes": 35266
+    }
+  ],
+  "current_manifest_updates": [
+    {
+      "path": "audit/updated_manifest.json",
+      "covered_changes": [
+        "payload/JA21-JA-Security-Policy-Language-Suite-1.0.0-main/LICENSE.txt"
+      ]
+    }
+  ],
+  "ledger_integrity": "The publication-wide checksum manifest should cover this ledger; this ledger does not include a self-hash."
+}

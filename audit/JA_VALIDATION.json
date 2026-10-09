@@ -1,0 +1,137 @@
+{
+  "corpus": "JA21-JA-Security-Policy-Language-Suite-1.0.0-main",
+  "status": "PASS",
+  "datasets": [
+    {
+      "path": "payload\\JA21-JA-Security-Policy-Language-Suite-1.0.0-main\\JA21_JASEC_Suite_1.0.0.expanded\\JA21_JASEC_Suite_1.0.0\\corpus\\technical\\JA21_JASEC_TECHNICAL_CORPUS_10000.jsonl.gz",
+      "program_records": 10000,
+      "metadata_records": 0,
+      "source_hashes_verified": 10000
+    },
+    {
+      "path": "payload\\JA21-JA-Security-Policy-Language-Suite-1.0.0-main\\JA21_JASEC_Suite_1.0.0.expanded\\JA21_JASEC_Suite_1.0.0\\corpus\\technical\\shards\\jasec_00001_00500.jsonl.gz",
+      "program_records": 500,
+      "metadata_records": 0,
+      "source_hashes_verified": 500
+    },
+    {
+      "path": "payload\\JA21-JA-Security-Policy-Language-Suite-1.0.0-main\\JA21_JASEC_Suite_1.0.0.expanded\\JA21_JASEC_Suite_1.0.0\\corpus\\technical\\shards\\jasec_00501_01000.jsonl.gz",
+      "program_records": 500,
+      "metadata_records": 0,
+      "source_hashes_verified": 500
+    },
+    {
+      "path": "payload\\JA21-JA-Security-Policy-Language-Suite-1.0.0-main\\JA21_JASEC_Suite_1.0.0.expanded\\JA21_JASEC_Suite_1.0.0\\corpus\\technical\\shards\\jasec_01001_01500.jsonl.gz",
+      "program_records": 500,
+      "metadata_records": 0,
+      "source_hashes_verified": 500
+    },
+    {
+      "path": "payload\\JA21-JA-Security-Policy-Language-Suite-1.0.0-main\\JA21_JASEC_Suite_1.0.0.expanded\\JA21_JASEC_Suite_1.0.0\\corpus\\technical\\shards\\jasec_01501_02000.jsonl.gz",
+      "program_records": 500,
+      "metadata_records": 0,
+      "source_hashes_verified": 500
+    },
+    {
+      "path": "payload\\JA21-JA-Security-Policy-Language-Suite-1.0.0-main\\JA21_JASEC_Suite_1.0.0.expanded\\JA21_JASEC_Suite_1.0.0\\corpus\\technical\\shards\\jasec_02001_02500.jsonl.gz",
+      "program_records": 500,
+      "metadata_records": 0,
+      "source_hashes_verified": 500
+    },
+    {
+      "path": "payload\\JA21-JA-Security-Policy-Language-Suite-1.0.0-main\\JA21_JASEC_Suite_1.0.0.expanded\\JA21_JASEC_Suite_1.0.0\\corpus\\technical\\shards\\jasec_02501_03000.jsonl.gz",
+      "program_records": 500,
+      "metadata_records": 0,
+      "source_hashes_verified": 500
+    },
+    {
+      "path": "payload\\JA21-JA-Security-Policy-Language-Suite-1.0.0-main\\JA21_JASEC_Suite_1.0.0.expanded\\JA21_JASEC_Suite_1.0.0\\corpus\\technical\\shards\\jasec_03001_03500.jsonl.gz",
+      "program_records": 500,
+      "metadata_records": 0,
+      "source_hashes_verified": 500
+    },
+    {
+      "path": "payload\\JA21-JA-Security-Policy-Language-Suite-1.0.0-main\\JA21_JASEC_Suite_1.0.0.expanded\\JA21_JASEC_Suite_1.0.0\\corpus\\technical\\shards\\jasec_03501_04000.jsonl.gz",
+      "program_records": 500,
+      "metadata_records": 0,
+      "source_hashes_verified": 500
+    },
+    {
+      "path": "payload\\JA21-JA-Security-Policy-Language-Suite-1.0.0-main\\JA21_JASEC_Suite_1.0.0.expanded\\JA21_JASEC_Suite_1.0.0\\corpus\\technical\\shards\\jasec_04001_04500.jsonl.gz",
+      "program_records": 500,
+      "metadata_records": 0,
+      "source_hashes_verified": 500
+    },
+    {
+      "path": "payload\\JA21-JA-Security-Policy-Language-Suite-1.0.0-main\\JA21_JASEC_Suite_1.0.0.expanded\\JA21_JASEC_Suite_1.0.0\\corpus\\technical\\shards\\jasec_04501_05000.jsonl.gz",
+      "program_records": 500,
+      "metadata_records": 0,
+      "source_hashes_verified": 500
+    },
+    {
+      "path": "payload\\JA21-JA-Security-Policy-Language-Suite-1.0.0-main\\JA21_JASEC_Suite_1.0.0.expanded\\JA21_JASEC_Suite_1.0.0\\corpus\\technical\\shards\\jasec_05001_05500.jsonl.gz",
+      "program_records": 500,
+      "metadata_records": 0,
+      "source_hashes_verified": 500
+    },
+    {
+      "path": "payload\\JA21-JA-Security-Policy-Language-Suite-1.0.0-main\\JA21_JASEC_Suite_1.0.0.expanded\\JA21_JASEC_Suite_1.0.0\\corpus\\technical\\shards\\jasec_05501_06000.jsonl.gz",
+      "program_records": 500,
+      "metadata_records": 0,
+      "source_hashes_verified": 500
+    },
+    {
+      "path": "payload\\JA21-JA-Security-Policy-Language-Suite-1.0.0-main\\JA21_JASEC_Suite_1.0.0.expanded\\JA21_JASEC_Suite_1.0.0\\corpus\\technical\\shards\\jasec_06001_06500.jsonl.gz",
+      "program_records": 500,
+      "metadata_records": 0,
+      "source_hashes_verified": 500
+    },
+    {
+      "path": "payload\\JA21-JA-Security-Policy-Language-Suite-1.0.0-main\\JA21_JASEC_Suite_1.0.0.expanded\\JA21_JASEC_Suite_1.0.0\\corpus\\technical\\shards\\jasec_06501_07000.jsonl.gz",
+      "program_records": 500,
+      "metadata_records": 0,
+      "source_hashes_verified": 500
+    },
+    {
+      "path": "payload\\JA21-JA-Security-Policy-Language-Suite-1.0.0-main\\JA21_JASEC_Suite_1.0.0.expanded\\JA21_JASEC_Suite_1.0.0\\corpus\\technical\\shards\\jasec_07001_07500.jsonl.gz",
+      "program_records": 500,
+      "metadata_records": 0,
+      "source_hashes_verified": 500
+    },
+    {
+      "path": "payload\\JA21-JA-Security-Policy-Language-Suite-1.0.0-main\\JA21_JASEC_Suite_1.0.0.expanded\\JA21_JASEC_Suite_1.0.0\\corpus\\technical\\shards\\jasec_07501_08000.jsonl.gz",
+      "program_records": 500,
+      "metadata_records": 0,
+      "source_hashes_verified": 500
+    },
+    {
+      "path": "payload\\JA21-JA-Security-Policy-Language-Suite-1.0.0-main\\JA21_JASEC_Suite_1.0.0.expanded\\JA21_JASEC_Suite_1.0.0\\corpus\\technical\\shards\\jasec_08001_08500.jsonl.gz",
+      "program_records": 500,
+      "metadata_records": 0,
+      "source_hashes_verified": 500
+    },
+    {
+      "path": "payload\\JA21-JA-Security-Policy-Language-Suite-1.0.0-main\\JA21_JASEC_Suite_1.0.0.expanded\\JA21_JASEC_Suite_1.0.0\\corpus\\technical\\shards\\jasec_08501_09000.jsonl.gz",
+      "program_records": 500,
+      "metadata_records": 0,
+      "source_hashes_verified": 500
+    },
+    {
+      "path": "payload\\JA21-JA-Security-Policy-Language-Suite-1.0.0-main\\JA21_JASEC_Suite_1.0.0.expanded\\JA21_JASEC_Suite_1.0.0\\corpus\\technical\\shards\\jasec_09001_09500.jsonl.gz",
+      "program_records": 500,
+      "metadata_records": 0,
+      "source_hashes_verified": 500
+    },
+    {
+      "path": "payload\\JA21-JA-Security-Policy-Language-Suite-1.0.0-main\\JA21_JASEC_Suite_1.0.0.expanded\\JA21_JASEC_Suite_1.0.0\\corpus\\technical\\shards\\jasec_09501_10000.jsonl.gz",
+      "program_records": 500,
+      "metadata_records": 0,
+      "source_hashes_verified": 500
+    }
+  ],
+  "unique_master_program_records": 10000,
+  "supplied_schemas_applied": [],
+  "metadata_warning_occurrences": {},
+  "scope": "Supplied schema where available, strict audit extension, exact source hashes where supplied, identity and master/shard equality. Domain grammar, types and execution not certified.",
+  "failures": []
+}

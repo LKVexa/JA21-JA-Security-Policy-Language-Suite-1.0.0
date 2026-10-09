@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "JA Security R12/MCRT Evidence Profile",
+  "type": "object",
+  "required": [
+    "source_sha256",
+    "ast_node_id",
+    "semantic_operator",
+    "policy_decision",
+    "r12_id",
+    "mcrt_id",
+    "evidence_scope"
+  ],
+  "properties": {
+    "source_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "ast_node_id": {
+      "type": "string"
+    },
+    "semantic_operator": {
+      "type": "string"
+    },
+    "policy_decision": {
+      "type": "string"
+    },
+    "r12_id": {
+      "type": "string"
+    },
+    "mcrt_id": {
+      "type": "string"
+    },
+    "proof_status": {
+      "type": "string"
+    },
+    "effects": {
+      "type": "array"
+    },
+    "capabilities": {
+      "type": "array"
+    },
+    "evidence_scope": {
+      "enum": [
+        "modeled",
+        "structural",
+        "native_compiler",
+        "native_runtime",
+        "certified"
+      ]
+    }
+  }
+}

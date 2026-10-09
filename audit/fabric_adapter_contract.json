@@ -1,0 +1,14 @@
+{
+  "profile": "ja.security",
+  "proposed_contribution": "Explicit rights, default deny, redaction and revocation",
+  "reuse_boundary": "Use corrected no-leak invariant; execute policy engine denial tests before admission.",
+  "source_archive_sha256": "8ccaccd58ee29681e860805c9ddbd476521be616b5863a5178019054dd242f30",
+  "source_evidence_paths": [
+    "payload/JA21-JA-Security-Policy-Language-Suite-1.0.0-main/JA21_JASEC_Suite_1.0.0.expanded/JA21_JASEC_Suite_1.0.0/SUITE_CATALOG.md",
+    "payload/JA21-JA-Security-Policy-Language-Suite-1.0.0-main/JA21_JASEC_Suite_1.0.0.expanded/JA21_JASEC_Suite_1.0.0/catalogs/FEATURE_ATLAS.md",
+    "payload/JA21-JA-Security-Policy-Language-Suite-1.0.0-main/JA21_JASEC_Suite_1.0.0.expanded/JA21_JASEC_Suite_1.0.0/specification/GRAMMAR_SPECIFICATION.md",
+    "payload/JA21-JA-Security-Policy-Language-Suite-1.0.0-main/JA21_JASEC_Suite_1.0.0.expanded/JA21_JASEC_Suite_1.0.0/specification/LANGUAGE_SPECIFICATION.md"
+  ],
+  "executable_adapter_implemented": false,
+  "mathematical_foundation": "8S Penteract-S3 Master Coupled Mechanics Law for intended JA model; typed operator semantics require their owning profile."
+}
